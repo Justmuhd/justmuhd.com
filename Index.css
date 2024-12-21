@@ -1,0 +1,109 @@
+@font-face{
+    font-family: 'Foglihten';
+    src: url(2.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #232323;
+}
+
+.container {
+    text-align: center;
+    background: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 283px;
+	height: 465px;
+}
+
+.profile-pic {
+    width: 100px;
+    height:130px;
+    border-radius: 20%;
+    margin-bottom: 20px;
+}
+
+.bodytext {
+    text-align: left;
+}
+
+.am {
+    color: #ff373a;
+    font-style: bold ;
+}
+
+h1 {
+    margin: 0;
+    font-size: 25px;
+    color: white;
+}
+
+h2 {
+    margin: 10px 0;
+    color: #c4c4c4;
+    font-size: 20px;
+	text-align: center;
+}
+
+p {
+    color: white;
+    font-weight: solid 2px;
+    text-align:left ;
+}
+
+.p1 {
+    margin-top: 50px;
+    font-size: 13.5px;
+}
+
+.contact {
+    margin: 10px 0;
+    font-family: Helvicta;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    text-color: red;
+}
+
+.about-me {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:  20px;
+}
+
+.about-me:hover {
+    background-color: #0056b3;
+}
+ 
+.link {
+    margin-top: 5px;
+    color: #1b69ff;
+}
+
+p2 {
+    floa: left;
+    font-family: Source Code Pro;
+    font-size: 9px;
+    text-align: center;
+}
+
+button{
+	font-style:bold;
+}
+
+h1{
+    font-family: Foglihten;
+}
